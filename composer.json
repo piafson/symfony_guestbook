@@ -18,7 +18,8 @@
         "symfony/framework-bundle": "7.3.*",
         "symfony/monolog-bundle": "^3.10",
         "symfony/runtime": "7.3.*",
-        "symfony/yaml": "7.3.*"
+        "symfony/yaml": "7.3.*",
+        "twig/intl-extra": "^3"
     },
     "require-dev": {
         "symfony/debug-bundle": "7.3.*",
