@@ -20,11 +20,7 @@ class ConferenceRepository extends ServiceEntityRepository
     {
         return $this->findBy([], ['year' => 'ASC', 'city' => 'ASC']);
     }
-<<<<<<< HEAD
-
-=======
     
->>>>>>> origin
     //    /**
     //     * @return Conference[] Returns an array of Conference objects
     //     */
