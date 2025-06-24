@@ -25,7 +25,11 @@
             <a href="{{ path('conference', { slug: conference.slug, offset: previous}) }}">Previous</a>
         {% endif %}
         {% if next < comments|length %}
+<<<<<<< HEAD
             <a href"{{ path('conference', { slug: conference.slug, offset: next }) }}">Next</a>
+=======
+            <a href="{{ path('conference', { id: conference.id, offset: next }) }}">Next</a>
+>>>>>>> origin
         {% endif %}
     {% else %}
         <div>No comments have been posted yet for this conference.</div>
